@@ -1,0 +1,27 @@
+{
+  "contact_title": "Contact Us",
+  "contact_text_1": "Our service agents",
+  "contact_text_2": "are ",
+  "contact_text_3_1": "always ",
+  "contact_text_3_2": "available",
+  "contact_text_4": " to speak ",
+  "contact_text_5": "with you",
+  "contact_office_1": "Australian Office",
+  "contact_office_2": "Tunisian Office",
+  "contact_office_3": "Dubai Office",
+  "contact_address_1": "Melbourne, Victoria, Australia",
+  "contact_address_2": "Sousse Medina, Beb Bhar",
+  "contact_address_3": "Fountain Views Hotel, Dubai, UAE",
+  "contact_map_text": "View on map",
+
+  "contact_form_title_1": "Contact a service ",
+  "contact_form_title_2": "agent.",
+  "contact_form_input_1": "Full Name *",
+  "contact_form_input_2": "Phone number *",
+  "contact_form_input_3": "Email *",
+  "contact_form_input_4": "Description",
+  "contact_form_input_1_error": "Full Name is required",
+  "contact_form_input_2_error": "Phone Number is required",
+  "contact_form_input_3_error": "Email is required",
+  "contact_form_btn": "Send"
+}

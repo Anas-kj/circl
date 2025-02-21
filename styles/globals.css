@@ -1,0 +1,287 @@
+/* Description: Main CSS Sheet */
+
+/******************************
+Table of Contents:
+- Font Initialization
+- Custom Properties
+- Global Rules
+******************************/
+
+/****************************/
+/*   Font Initialization   */
+/**************************/
+
+/* Aeonik */
+@font-face {
+  font-family: "Aeonik";
+  src: url("../public/fonts/Aeonik/Aeonik-Thin.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../public/fonts/Aeonik/Aeonik-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../public/fonts/Aeonik/Aeonik-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../public/fonts/Aeonik/Aeonik-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("../public/fonts/Aeonik/Aeonik-Bold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Rogan */
+@font-face {
+  font-family: "Rogan";
+  src: url("../public/fonts/Rogan/Rogan-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rogan";
+  src: url("../public/fonts/Rogan/Rogan-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rogan";
+  src: url("../public/fonts/Rogan/Rogan-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rogan";
+  src: url("../public/fonts/Rogan/Rogan-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Almarai */
+@font-face {
+  font-family: "Almarai";
+  src: url("../public/fonts/Almarai/Almarai-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Almarai";
+  src: url("../public/fonts/Almarai/Almarai-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Almarai";
+  src: url("../public/fonts/Almarai/Almarai-ExtraBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Almarai";
+  src: url("../public/fonts/Almarai/Almarai-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Telegraf */
+@font-face {
+  font-family: "Telegraf";
+  src: url("../public/fonts/Telegraf/Telegraf-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Trap */
+
+@font-face {
+  font-family: "Trap";
+  src: url("../public/fonts/Trap/Trap-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("../public/fonts/Trap/Trap-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("../public/fonts/Trap/Trap-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trap";
+  src: url("../public/fonts/Trap/Trap-Bold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Aventa */
+
+@font-face {
+  font-family: "Aventa";
+  src: url("../public/fonts/Aventa/Aventa-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aventa";
+  src: url("../public/fonts/Aventa/Aventa-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aventa";
+  src: url("../public/fonts/Aventa/Aventa-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aventa";
+  src: url("../public/fonts/Aventa/Aventa-Bold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**************************/
+/*   Custom Properties   */
+/************************/
+:root {
+  /* Fonts */
+  --primary-font: "Aventa", sans-serif;
+  --secondary-font: "Aventa", sans-serif;
+  --tertiary-font: "Aventa", sans-serif;
+
+  /* Fonts Sizes */
+  /* mobile */
+  --heading-mb: 35px;
+  --sub-heading-mb: 15px;
+  --p-mb: 15px;
+  --line-height-heading-mb: 1.06;
+  --line-height-p-mb: 1.5;
+  /* desktop */
+  --heading-lg: 60px;
+  --sub-heading-lg: 23px;
+  --p-lg: 21px;
+  --line-height-heading-lg: 1.2;
+  --line-height-p-lg: 1.5;
+  /* common */
+  --letter-spacing-sub-heading: 0.12em;
+
+  /* Colors */
+  --primary-black: #000000;
+  --primary-white: #ffffff;
+  --text-primary: #ffffff;
+  --primary-gray: #6d6d6d;
+  --primary-green: #1fbe00;
+  --swiper-navigation-color: #1fbe00;
+  --swiper-pagination-color: #1fbe00;
+  --swiper-my-navigation-size: 35px;
+  /* background*/
+  --body-bg: #000;
+}
+
+/*********************/
+/*   Global Rules   */
+/*******************/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #23d80a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1fbe00;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,26 @@
+{
+  "contact_title": "اتصلوا بنا",
+  "contact_text_1": "وكلاء",
+  "contact_text_2": "الخدمة",
+  "contact_text_3_1": "لدينا متاحون دائمًا",
+  "contact_text_4": "للتحدث",
+  "contact_text_5": "معك",
+  "contact_office_1": "المكتب الاسترالي",
+  "contact_office_2": "المكتب التونسي",
+  "contact_office_3": "مكتب دبي",
+  "contact_address_1": "ملبورن، فيكتوريا، أستراليا",
+  "contact_address_2": "مدينة سوسة ، باب بحر",
+  "contact_address_3": "فندق فاونتن فيوز ، دبي ، الإمارات العربية المتحدة",
+  "contact_map_text": "عرض على الخريطة",
+
+  "contact_form_title_1": "اتصل بوكيل",
+  "contact_form_title_2": "الخدمة",
+  "contact_form_input_1": "الاسم الكامل *",
+  "contact_form_input_2": "رقم الهاتف *",
+  "contact_form_input_3": "البريد الإلكتروني *",
+  "contact_form_input_4": "الوصف",
+  "contact_form_input_1_error": "الإسم الكامل ضروري",
+  "contact_form_input_2_error": "رقم الهاتف ضروري",
+  "contact_form_input_3_error": "البريد الالكتروني ضروري",
+  "contact_form_btn": "إرسال"
+}
